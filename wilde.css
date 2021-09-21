@@ -1,0 +1,41 @@
+.speech
+{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.stage-direction
+{
+    color:black;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.stage-direction:hover
+{
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+.name
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.phipps
+{
+    color: rgb(73, 73, 192);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lord-goring
+{
+    color: rgb(54, 117, 119);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
