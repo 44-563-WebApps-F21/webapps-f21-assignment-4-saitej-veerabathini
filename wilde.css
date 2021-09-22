@@ -39,3 +39,17 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.table
+{
+    border: 5px;
+    border-style: ridge;
+    border-color:rgb(253, 193, 104);
+    text-align: center;
+    margin: 10px;
+    padding-left: 10px;
+    border-collapse: collapse;
+    
+}
+
+tr:nth-child(even) {background-color: rgb(240, 209, 166);}
