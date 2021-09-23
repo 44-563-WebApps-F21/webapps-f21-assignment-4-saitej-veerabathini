@@ -21,9 +21,15 @@
 
 .name
 {
-    color: black;
+    color:rgb(182, 135, 64);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+.name:hover
+{
+    text-shadow: navajowhite;
+    filter: blur(1px);
 }
 
 .phipps
@@ -33,6 +39,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.phipps:hover
+{
+    text-shadow: rgb(131, 131, 226);
+    filter: blur(1px);
+}
+
 .lord-goring
 {
     color: rgb(54, 117, 119);
@@ -40,6 +52,11 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.lord-goring:hover
+{
+    text-shadow: rgb(172, 231, 231);
+    filter: blur(1px);
+}
 .table
 {
     border: 5px;
@@ -52,4 +69,19 @@
     
 }
 
-tr:nth-child(even) {background-color: rgb(240, 209, 166);}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li
+{ 
+   float:left; 
+   color:#000;background-color:lightgray
+}
+ul.navbar-horizontal a {
+   display:block;padding:8px
+}
+ul.navbar-horizontal a:hover { 
+   background-color: #555;color:white;
+}
